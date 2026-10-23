@@ -1,6 +1,6 @@
 # Homebrew cask for Nimbus. The release workflow fills in the version and
 # the published .dmg's SHA-256 and attaches the result to the release as
-# nimbus.rb; scripts/publish-packages.sh puts it in the tap
+# nimbus.rb; scripts/publish-packages.ps1 puts it in the tap
 # (SklorGalore/homebrew-nimbus, under Casks/nimbus.rb), so
 # `brew install --cask sklorgalore/nimbus/nimbus` installs it.
 #
@@ -8,8 +8,8 @@
 # below says what to do. (Homebrew's `--no-quarantine` flag skips the
 # quarantine attribute at install time instead.)
 cask "nimbus" do
-  version "1.2.0"
-  sha256 "98cbd427333365c6371ed41249b767d16bf32e96be39dc6bda69e281c581de83"
+  version "1.3.1"
+  sha256 "a9153950d92414a66d537a024b961c3e845a98a1f7c1dbac501f0a8aed8f32bd"
 
   url "https://github.com/SklorGalore/nimbus/releases/download/v#{version}/Nimbus-#{version}-macos.dmg"
   name "Nimbus"
