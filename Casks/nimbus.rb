@@ -8,8 +8,8 @@
 # below says what to do. (Homebrew's `--no-quarantine` flag skips the
 # quarantine attribute at install time instead.)
 cask "nimbus" do
-  version "1.0.1"
-  sha256 "3edff359572ad97ab756e59073188be524db02b54a09ff80e6f3b35ea8fdaa6d"
+  version "1.2.0"
+  sha256 "98cbd427333365c6371ed41249b767d16bf32e96be39dc6bda69e281c581de83"
 
   url "https://github.com/SklorGalore/nimbus/releases/download/v#{version}/Nimbus-#{version}-macos.dmg"
   name "Nimbus"
